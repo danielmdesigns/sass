@@ -1,0 +1,23 @@
+//Mixin
+
+//Mixin's are used kind of like variables but for larger more robust usage. Like, you could define an entire button style so that you only need to define the states, as an example.
+
+//DEFINE Mixin
+@mixin font-16
+	font-size: 1rem
+@mixin font-lato
+	font-family: 'Lato', "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif
+@mixin font-alice
+	font-family: 'Alice', Georgia, Times, Garamond, Baskerville, "Times New Roman", serif
+
+@mixin square
+  width: 50px
+  height: 50px
+
+//USE Mixin
+body
+	@include font-16
+	@include font-alice
+
+.box
+  @include sqaure
