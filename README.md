@@ -1,5 +1,5 @@
-# The Sass Project
-The Sass Project is a guide to get you up && running quickly to compile your CSS using nothing but your command line and/or terminal. Once I discovered a few commands, finally able to navigate myself gently around the terminal - what I discovered was, that, using the command line, I was able to start coding faster, easier, and with less errors. It was m a g i c a l. These are the simple things I made notes of that helped me make the transition from 3rd party apps _(codekit && prepos)_ to only my terminal.
+# Using Sass
+This is a guide to get you up && running quickly to compile your CSS using nothing but your command line and/or terminal. Once I discovered a few commands, finally able to navigate myself gently around the terminal - what I discovered was, that, using the command line, I was able to start coding faster, easier, and with less errors. It was m a g i c a l. These are the simple things I made notes of that helped me make the transition from 3rd party apps _(codekit && prepos)_ to only my terminal.
 
 ###Install Sass
 
