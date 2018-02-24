@@ -3,7 +3,7 @@ This is a guide to get you up && running quickly to compile your CSS using nothi
 
 ###Install Sass
 
-Step 1—
+Step 1 —
 
 This is the first-timer install section. To get started, we need to first find the terminal. On a mac, type ```cmd+spacebar``` and search for _"terminal"_. Once you're in the terminal, we need to do 1 -of- 2 things. A. If this is your first time, you need to install Sass on your machine. Otherwise, B, you need to update it.
 
@@ -20,7 +20,7 @@ Finally, if you would just like to check the current version or simply make sure
 
 ###Using Sass
 
-Step 2—
+Step 2 —
 
 To get the Sass compiler up && running, watching our project, we will need to use the ```--watch``` command so that it can begin looking for changes in our project folder _(directory)_.
 
@@ -33,7 +33,7 @@ First things, first. We need to make sure we're in the correct directory of or p
 5. ```ctrl-c``` - Stop Sass from watching
 
 
-Step 3—
+Step 3 —
 
 Once you know you're in the correct location/file/directory of the project you're going to be working on - it's probably best to keep your CSS & Sass in separate folders. Therefore, we'll want to use the command ```sass --watch sass:css```. This is saying, _"Hey Sass, watch all the files in the 'Sass' folder for any changes and update the stylesheet in the 'CSS' folder."_ A few more tips include;
 
@@ -41,7 +41,7 @@ Once you know you're in the correct location/file/directory of the project you'r
 2. ```sass --watch --style compressed sass:css``` - Compress and minify code by using 
 3. ```sass --watch --style compressed file-name.sass:file-name.css``` - Compile a specific file only
 
-Step 4—
+Step 4 —
 Dw will ask you anytime a Sass file has been changed that _"The file has been modified outside of Dw would you like to update/save those changes"_ and you want to be sure to click ```yes``` so that it'll stop asking you.
 
 Lastly, here are a few general command tips to help you level up. Enjoy!
