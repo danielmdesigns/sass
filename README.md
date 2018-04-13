@@ -37,9 +37,9 @@ Step 3 —
 
 Once you know you're in the correct location/file/directory of the project you're going to be working on - it's probably best to keep your CSS & Sass in separate folders. Therefore, we'll want to use the command ```sass --watch sass:css```. This is saying, _"Hey Sass, watch all the files in the 'Sass' folder for any changes and update the stylesheet in the 'CSS' folder."_ A few more tips include;
 
-1. ```sass --watch sass:css``` - Start watching & compiling Sass to CSS 
+1. ```sass --watch sass:css``` - Will compile your Sass & CSS files when in different folders 
 2. ```sass --watch --style compressed sass:css``` - Compress and minify code by using 
-3. ```sass --watch --style compressed file-name.sass:file-name.css``` - Compile a specific file only
+3. ```sass --watch --style compressed file-name.sass:file-name.css``` - Compile stylesheet explicitly when files are in the same directory
 
 Step 4 —
 Dw will ask you anytime a Sass file has been changed that _"The file has been modified outside of Dw would you like to update/save those changes"_ and you want to be sure to click ```yes``` so that it'll stop asking you.
