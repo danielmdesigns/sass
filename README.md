@@ -49,4 +49,7 @@ Lastly, here are a few general command tips to help you level up. Enjoy!
 1. ```shift+command+period``` - Shows files again? idrk
 2. ```cd ../``` or ```cd -``` - Go back to previous directory
 3. ```open file-name.html``` - Open that file in a browser. Cute, huh?
-3. ```cd my\ directory\``` - use the ```\``` to deal w/ spaces in directory names...
+4. ```cd my\ directory\``` - use the ```\``` to deal w/ spaces in directory names...
+5. ```mkdir folderName``` - Creates a new Directory or Folder
+6. ```touch file-name.html``` - Creates a new file
+7. ```python -m SimpleHTTPServer``` - Will run a local server
