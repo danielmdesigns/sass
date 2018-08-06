@@ -42,6 +42,7 @@ Once you know you're in the correct location/file/directory of the project you'r
 3. ```sass --watch --style compressed file-name.sass:file-name.css``` - Compile stylesheet explicitly when files are in the same directory
 
 Step 4 —
+
 Dw will ask you anytime a Sass file has been changed that _"The file has been modified outside of Dw would you like to update/save those changes"_ and you want to be sure to click ```yes``` so that it'll stop asking you.
 
 Lastly, here are a few general command tips to help you level up. Enjoy!
@@ -53,3 +54,14 @@ Lastly, here are a few general command tips to help you level up. Enjoy!
 5. ```mkdir folderName``` - Creates a new Directory or Folder
 6. ```touch file-name.html``` - Creates a new file
 7. ```python -m SimpleHTTPServer``` - Will run a local server
+
+Step 5 —
+
+Set up a localSever environment. This is helpful to avoid browser caching issues which are a pain in the ass...
+
+1. ```(cmd+t)``` to open a new tab in the terminal (this is so that your sass compiler does not get interupted.)
+2. navigate to the location/file/directory of the project that you're going to be working on. Esentially, whatever folder that contains the index.html you'll be wanting to view
+3. enter ```python -m SimpleHTTPServer``` to get a server running
+4. in the browser, view the ```index.html``` by typing ```localhost:8000``` into the browser
+5. If another site in development is already being used by ```localhost:8000``` just add an alternitve port like ```python -m SimpleHTTPServer 7800```
+6. Then access it just like you would in Step 3
